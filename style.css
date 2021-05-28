@@ -1,0 +1,30 @@
+body{
+	background: rgb(37,110,12);
+background: linear-gradient(0deg, rgba(37,110,12,1) 0%, rgba(210,202,202,1) 0%, rgba(212,175,55,1) 43%, rgba(28,179,48,1) 83%);
+	text-align: center;
+}
+row::after{
+	content: "";
+	clear:both;
+	display: table;
+}
+img 1, img 2, img 3{
+	height:300px;
+	width: 300px;
+}
+.movie_head {
+	font-size: 20px;
+	padding: 6px 22px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	width: 100%;
+	display: inline-block;
+}
+
+.movie_head i {
+	float: right;
+}
+
+.movie_text span {
+	color: #ff7700;
+}
